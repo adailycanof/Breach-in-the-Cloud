@@ -1,7 +1,7 @@
 ## PWNED LABS
 https://pwnedlabs.io/
 
-# Intro to AWS IAM Enumeration
+# Breach In the Cloud
 https://pwnedlabs.io/labs/breach-in-the-cloud
 
 # Secenario
@@ -112,7 +112,7 @@ There is a policy attached to this role called test-temp-user, and after checkin
 
 The role is now assumed. Lets run aws configure with the provided creds and then set the session token.
 
-![alt text](images/image-13.png)
+![alt text](image13.png)
 
 And thats how it was done. The contect of the bucket have been exposed and the attacker has gained access.
 
