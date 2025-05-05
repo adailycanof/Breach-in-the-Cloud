@@ -104,15 +104,11 @@ Now we have an idea of what the bad user has done lets recreate and follow the t
 
 Following the trail it doesnt look good. Follow the steps taken and what the outcome is
 
-![alt text](images/image-11.png)
-
 There is a policy attached to this role called test-temp-user, and after checking it, we can see that it allows the assumption of the AdminRole!
-
-![alt text](images/image-12.png)
 
 The role is now assumed. Lets run aws configure with the provided creds and then set the session token.
 
-![alt text](image13.png)
+![alt text](images/image13.png)
 
 And thats how it was done. The contect of the bucket have been exposed and the attacker has gained access.
 
